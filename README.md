@@ -39,5 +39,5 @@ Resources
   pp. 97—104, April, 2006.
 </li>
 
-[Download Paper](https://github.com/soundpaint/SoundOntology/doc/lac2006_ontology.pdf)
-[Download Slides](https://github.com/soundpaint/SoundOntology/doc/lac2006_ontology_slides.pdf)
+[Download Paper](https://github.com/soundpaint/SoundOntology/raw/master/doc/lac2006_ontology.pdf)
+[Download Slides](https://github.com/soundpaint/SoundOntology/raw/master/doc/lac2006_ontology_slides.pdf)

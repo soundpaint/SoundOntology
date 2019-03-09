@@ -1,0 +1,120 @@
+strict digraph "Instrument Taxonomy" {
+  color="#0000ff";
+  bgcolor="#ffffff";
+  "Acoustic" [
+    label="Acoustic",
+    shape=record,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Strings" [
+    label="String",
+    shape=record,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Bowed" [
+    label="Bowed",
+    shape=record,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Violine" [
+    label="Violine",
+    shape=ellipse,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Cello" [
+    label="Cello",
+    shape=ellipse,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Plucked" [
+    label="Plucked",
+    shape=record,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Guitar" [
+    label="Guitar",
+    shape=ellipse,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Wind" [
+    label="Wind",
+    shape=record,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Brass" [
+    label="Brass",
+    shape=record,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Trumpet" [
+    label="Trumpet",
+    shape=ellipse,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Reed" [
+    label="Reed",
+    shape=record,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Clarinet" [
+    label="Clarinet",
+    shape=ellipse,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Acoustic" -> "Strings" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Acoustic" -> "Wind" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Wind" -> "Brass" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Wind" -> "Reed" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Strings" -> "Bowed" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Strings" -> "Plucked" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Bowed" -> "Violine" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Bowed" -> "Cello" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Plucked" -> "Guitar" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Reed" -> "Clarinet" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Brass" -> "Trumpet" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+}

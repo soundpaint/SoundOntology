@@ -1,0 +1,170 @@
+strict digraph "Instrument Taxonomy" {
+  color="#0000ff";
+  bgcolor="#ffffff";
+  "Acoustic" [
+    label="Acoustic\lInstruments\l",
+    shape=record,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Strings" [
+    label="String\lInstruments\l",
+    shape=record,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Bowed" [
+    label="Bowed\lInstruments\l",
+    shape=record,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Violine" [
+    label="Violine\l",
+    shape=ellipse,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Cello" [
+    label="Cello\l",
+    shape=ellipse,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Plucked" [
+    label="Plucked\lInstruments\l",
+    shape=record,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Guitar" [
+    label="Guitar\l",
+    shape=ellipse,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Wind" [
+    label="Wind\lInstruments\l",
+    shape=record,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Brass" [
+    label="Brass\lInstruments\l",
+    shape=record,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Trumpet" [
+    label="Trumpet\l",
+    shape=ellipse,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Reed" [
+    label="Reed\lInstruments\l",
+    shape=record,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Clarinet" [
+    label="Clarinet\l",
+    shape=ellipse,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Organ" [
+    label="Organ\lInstruments\l",
+    shape=record,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Percussive" [
+    label="Percussive\lInstruments\l",
+    shape=record,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Melodic Drum" [
+    label="Melodic Drum\lInstruments\l",
+    shape=record,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Chime" [
+    label="Chime\lInstruments\l",
+    shape=record,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Tubular Bells" [
+    label="Tubular Bells\l",
+    shape=ellipse,
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Acoustic" -> "Strings" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Acoustic" -> "Wind" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Acoustic" -> "Organ" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Acoustic" -> "Percussive" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Percussive" -> "Melodic Drum" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Melodic Drum" -> "Chime" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Wind" -> "Brass" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Wind" -> "Reed" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Strings" -> "Bowed" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Strings" -> "Plucked" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Bowed" -> "Violine" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Bowed" -> "Cello" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Plucked" -> "Guitar" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Reed" -> "Clarinet" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Brass" -> "Trumpet" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+  "Chime" -> "Tubular Bells" [
+    color="0.0,0.0,0.0",
+    fontcolor="0.0,0.0,0.0"
+  ];
+}

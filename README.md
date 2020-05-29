@@ -18,6 +18,10 @@ This project introduces an ontology written in the <code>OWL</code>
 Ontology Web Language for managing sound resources.  The ontology
 resides in the <code>src/owl</code> subdirectory.
 
+![Fig. 1: Formal Description of Sound Instance](doc/images/SoundInstance.png)
+
+Fig. 1: Formal Description of Sound Instance
+
 For project documentation, see the LAC2006 conference paper and
 associated slides in the <code>doc</code> directory.  The paper gives
 a short survey of existing approaches on classification and retrieval
